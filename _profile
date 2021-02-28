@@ -1,5 +1,0 @@
-# .bash_profile
-
-# read other bash files
-source $HOME/.bashrc
-source $HOME/.bash_login

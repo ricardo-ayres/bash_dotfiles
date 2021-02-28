@@ -1,0 +1,12 @@
+
+# Color definitions
+CYAN="\[\e[1;34m\]"
+WHITE="\[\e[1;37m\]"
+RESET="\[\e[0m\]"
+COLOR=$CYAN
+
+# Prompt definitions
+# See .inputrc as well for vi mode status
+PS1="$COLOR[$WHITE\A$COLOR]($WHITE\W$COLOR)$RESET\n$COLOR>$RESET"' '
+PS2="$COLOR>$RESET"' '
+

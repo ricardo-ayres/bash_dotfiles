@@ -1,7 +1,7 @@
 # .bashrc
 
 # set PATH
-PATH=$PATH:/opt/texbin:$HOME/.local/bin
+PATH="$PATH:/opt/texbin:$HOME/.local/bin"
 
 # set MANPATH
 MANPATH="$HOME/.local/share/man"
@@ -11,5 +11,5 @@ EDITOR="vim"
 VISUAL="$EDITOR"
 
 # Delegate all configs to other files:
-[ -f $HOME/.ps1rc ] && source $HOME/.ps1rc
-[ -f $HOME/.bash_aliases ] && source $HOME/.bash_aliases
+[ -f "$HOME/.ps1rc" ] && source "$HOME/.ps1rc"
+[ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"

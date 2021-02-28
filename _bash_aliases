@@ -1,0 +1,5 @@
+alias ls="ls --color=auto -F"
+alias untar="tar xvf"
+alias du="du -h"
+alias df="df -h"
+alias man="man -m $MANPATH"
