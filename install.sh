@@ -1,6 +1,6 @@
 #!/bin/env bash
-INSTALLDIR=$HOME
+PREFIX=$HOME
 
 for f in _*;
-	do cp -v "$f" "$INSTALLDIR/${f/_/.}";
+    do ln -s "$(pwd)/$f" "$PREFIX/${f/_/.}";
 done

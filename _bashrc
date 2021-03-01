@@ -7,9 +7,9 @@ PATH="$PATH:/opt/texbin:$HOME/.local/bin"
 MANPATH="$HOME/.local/share/man"
 
 # set EDITOR and VISUAL
-EDITOR="vim"
-VISUAL="$EDITOR"
+export EDITOR="vim"
+export VISUAL="$EDITOR"
 
 # Delegate all configs to other files:
-[ -f "$HOME/.ps1rc" ] && source "$HOME/.ps1rc"
+[ -f "$HOME/.bash_ps1rc" ] && source "$HOME/.bash_ps1rc"
 [ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"
