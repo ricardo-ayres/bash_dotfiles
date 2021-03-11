@@ -7,6 +7,6 @@ COLOR=$CYAN
 
 # Prompt definitions
 # See .inputrc as well for vi mode status
-PS1="$COLOR[$WHITE\A$COLOR]($WHITE\W$COLOR)$RESET\n$COLOR>$RESET"' '
+PS1="$COLOR[$WHITE\A$COLOR]<$WHITE\H$COLOR>($WHITE\W$COLOR)$RESET\n$COLOR>$RESET"' '
 PS2="$COLOR>$RESET"' '
 
