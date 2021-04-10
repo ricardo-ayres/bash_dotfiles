@@ -1,7 +1,9 @@
 # .bashrc
 
 # set PATH
-PATH="$PATH:/opt/texbin:$HOME/.local/bin"
+TEXLIVE_BIN="/opt/texlive/20*/bin/x86_64-linux"
+HOME_BIN="$HOME/.local/bin"
+PATH="$PATH:$TEXLIVE:$HOME_BIN"
 
 # set MANPATH
 MANPATH="$HOME/.local/share/man"
