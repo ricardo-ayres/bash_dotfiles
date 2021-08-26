@@ -16,7 +16,7 @@ if [ "$(tty)" = "/dev/tty1" ]; then
         "" | "1") exec startx ;;
         "2") exec fbterm-bg -- dvtm-status ;;
         "3") exec fbterm-bg ;;
-        "4") exec bash ;;
+        "4") exec bash -li ;;
         "0") exit ;;
         *) echo -e "Not an option.\n\n--" ;;
         esac

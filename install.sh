@@ -1,6 +1,6 @@
 #!/bin/env bash
 PREFIX=$HOME
 
-for f in _*;
-    do ln -s "$(pwd)/$f" "$PREFIX/${f/_/.}";
+for f in _*; do
+  cp -v "$f" $PREFIX/${f/_/.}
 done

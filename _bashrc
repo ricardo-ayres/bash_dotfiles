@@ -1,17 +1,19 @@
 # .bashrc
 
 # set PATH
-TEXLIVE_BIN="/opt/texlive/20*/bin/x86_64-linux"
+#TEXLIVE_BIN="/opt/texlive/20*/bin/x86_64-linux"
+#PATH="$PATH:$TEXLIVE"
 HOME_BIN="$HOME/.local/bin"
-PATH="$PATH:$TEXLIVE:$HOME_BIN"
+PATH="$PATH:$HOME_BIN"
 
 # set MANPATH
 MANPATH="$HOME/.local/share/man"
 
 # set EDITOR and VISUAL
-export EDITOR="vim"
+export EDITOR="vis"
 export VISUAL="$EDITOR"
 
 # Delegate all configs to other files:
 [ -f "$HOME/.bash_ps1rc" ] && source "$HOME/.bash_ps1rc"
 [ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"
+[ -f "$HOME/.bash_login" ] && source "$HOME/.bash_login"
