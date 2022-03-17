@@ -3,4 +3,3 @@ alias untar="tar xvf"
 alias du="du -h"
 alias df="df -h"
 alias man="man -m $MANPATH"
-alias ck61='xkbcomp $HOME/.local/software/ck61/us_intl_ck61.xkb $DISPLAY'
