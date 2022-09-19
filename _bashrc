@@ -11,7 +11,7 @@ PATH="$PATH:$HOME_BIN:$ORCA"
 MANPATH="$HOME/.local/share/man"
 
 # set SVDIR
-SVDIR=$HOME/.local/service
+export SVDIR=$HOME/.local/service
 
 # set EDITOR and VISUAL
 export EDITOR="vis"
