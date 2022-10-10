@@ -2,23 +2,5 @@
 # .bash_login
 # session selector
 if [ "$(tty)" = "/dev/tty1" ]; then
-    while true; do
-        echo "#### Session Chooser ####"
-        echo "Choose your session:"
-        echo "1 - dwm (default)"
-        echo "2 - dvtm-status"
-        echo "3 - Framebuffer console"
-        echo "4 - Linux text console"
-        echo "0 - Log out"
-        echo -n "Your choice: "
-        read SESSION
-        case "$SESSION" in 
-        "" | "1") exec startx ;;
-        "2") exec fbterm-bg -- dvtm-status ;;
-        "3") exec fbterm-bg ;;
-        "4") break ;;
-        "0") exit ;;
-        *) echo -e "Not an option.\n\n--" ;;
-        esac
-    done
+	exec startx
 fi
