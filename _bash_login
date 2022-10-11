@@ -1,6 +1,5 @@
-# vim: ft=sh
 # .bash_login
-# session selector
-if [ "$(tty)" = "/dev/tty1" ]; then
+
+if [ "$(tty)" = "/dev/tty4" ]; then
 	exec startx
 fi
