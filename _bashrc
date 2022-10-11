@@ -1,17 +1,11 @@
 # .bashrc
 
 # set PATH
-#TEXLIVE_BIN="/opt/texlive/20*/bin/x86_64-linux"
-#PATH="$PATH:$TEXLIVE"
 HOME_BIN="$HOME/.local/bin"
-#ORCA="$HOME/.local/software/orca_5_0_3"
 PATH="$PATH:$HOME_BIN:$ORCA"
 
 # set MANPATH
 MANPATH="$HOME/.local/share/man"
-
-# set SVDIR
-export SVDIR=$HOME/.local/service
 
 # set EDITOR and VISUAL
 export EDITOR="vis"
